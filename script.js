@@ -1,7 +1,7 @@
 // app script
 const timer = document.querySelector('#timer');
-const focusTime = 3;
-const restTime = 3;
+const focusTime = 1500;
+const restTime = 300;
 
 let timerValue = focusTime;
 
