@@ -1,0 +1,1 @@
+**Pommedoro** is a pomodoro-style timer with an apple theme. The focusing interval is set for 25 minutes, and the rest interval is set for 5 minutes. Try it out using the deployment link!
