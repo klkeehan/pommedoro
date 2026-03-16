@@ -1,0 +1,141 @@
+:root {
+--moss-green: #69b64bff;
+--medium-green: #7dcb5eff;
+--oxblood: #990a0aff;
+--mahogany-red: #b81f1fff;
+--cream: #FEFFD2;
+--taupe: #2c2318;
+background-color: var(--cream);
+}
+
+@font-face {
+  font-family: pixel-arial;
+  src: url(./assets/pixel-arial.TTF);
+}
+
+.app {
+  width: 84%;
+  height: 200px;
+  margin-left: 8%;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.titlebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: var(--oxblood);
+  -webkit-app-region: drag;
+}
+
+aside {
+  -webkit-app-region: no-drag;
+}
+
+.title-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.title-btn img {
+  width: 26px;
+  height: 26px;
+  margin-left: -10px;
+  margin-right: 0px;
+}
+
+.start-btn {
+  background-image: url(./assets/start.png);
+  background-size: contain;
+  width: 36px;
+  height: 34px;
+  margin-top: -0px;
+}
+
+.reset-btn {
+  background-image: url(./assets/reset.png);
+  background-size: contain;
+  width: 36px;
+  height: 34px;
+  margin-top: 0px;
+}
+
+.popup {
+  font-family: 'pixel-arial';
+  letter-spacing: 2px;
+  color: var(--cream);
+  background-color: var(--mahogany-red);
+  border: 6px var(--oxblood) solid;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 150px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.c-btn {
+  font-family: 'pixel-arial';
+  letter-spacing: 2px;
+  background-color: var(--cream);
+  color: var(--mahogany-red);
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: 'pixel-arial';
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: var(--mahogany-red);
+  margin-top: 5px;
+  margin-bottom: -15px;
+}
+
+h2 {
+  font-family: 'pixel-arial';
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  color: var(--oxblood);
+}
+
+h3 {
+  font-family: 'pixel-arial';
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  color: var(--cream);
+}
+
+p {
+  font-family: 'pixel-arial';
+  font-size: 8px;
+  font-weight: 400;
+  color: var(--mahogany-red);
+}
+
+button {
+  background-color: transparent;
+  border: 0px none;
+}
